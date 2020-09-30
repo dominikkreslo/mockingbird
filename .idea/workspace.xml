@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1563794-29f9-4f6b-a211-8ee7877b5959" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="dd8884d1-774a-4143-b609-b0501ed2bc0b" />
+  <component name="ProjectId" id="1iCclJxOrNFGr7kNMo1E6txGUPx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1563794-29f9-4f6b-a211-8ee7877b5959" name="Default Changelist" comment="" />
+      <created>1601415166293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601415166293</updated>
+      <workItem from="1601415168215" duration="1628000" />
+    </task>
+    <task id="LOCAL-00001" summary="Testing stuff">
+      <created>1601415395579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601415395579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing stuff" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="318" y="110" key="CommitChangelistDialog2" timestamp="1601415395327">
+      <screen x="0" y="25" width="2048" height="1127" />
+    </state>
+    <state x="318" y="110" key="CommitChangelistDialog2/0.25.2048.1127/2048.127.1680.1025@0.25.2048.1127" timestamp="1601415395327" />
+    <state x="333" y="274" key="Vcs.Push.Dialog.v2" timestamp="1601415400390">
+      <screen x="0" y="25" width="2048" height="1127" />
+    </state>
+    <state x="333" y="274" key="Vcs.Push.Dialog.v2/0.25.2048.1127/2048.127.1680.1025@0.25.2048.1127" timestamp="1601415400390" />
+  </component>
+</project>
