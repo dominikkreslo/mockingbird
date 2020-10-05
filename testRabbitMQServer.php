@@ -30,7 +30,7 @@ require_once('rabbitMQLib.inc');
       return array("returnCode" => '0', 'message'=>"Server received request and processed");
     }
 
-    $server = new rabbitMQServer("testRabbitMQ.ini","testServer");
+    $server = new rabbitMQServer("testRabbitMQ.ini","database");
 
     echo "testRabbitMQServer BEGIN".PHP_EOL;
     $server->process_requests('requestProcessor');
