@@ -31,6 +31,8 @@ require_once('rabbitMQLib.inc');
     }
 
     $server = new rabbitMQServer("testRabbitMQ.ini","database");
+    echo 'server started up';
+    $server->process_requests('process');
 
     echo "testRabbitMQServer BEGIN".PHP_EOL;
     $server->process_requests('requestProcessor');
