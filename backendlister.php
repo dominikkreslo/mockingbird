@@ -12,4 +12,10 @@ function sendRabbit($data, $server){
     $response = $client->send_request($data);
     return $response;
 }
+
+echo "client recieved response: ".PHP_EQL;
+print_r($response);
+echo "\n\n";
+
+echo $argv[0]." END".PHP_EQL;
 ?>
