@@ -6,7 +6,24 @@ require_once('rabbitMQLib.inc');
 
     function doLogin($username,$password)
     {
-        // lookup username in database
+        if(isset($_POST["name"], $_POST["password"]))
+        {
+
+            $name = $_POST["name"];
+            $password = $_POST["password"];
+
+            $result1 = mysqli_query("SELECT username, password FROM Users WHERE username = '".$name."' AND  password = '".$password."'");
+
+            if(mysqli_num_rows($result1) > 0 )
+            {
+                $_SESSION["logged_in"] = true;
+                $_SESSION["naam"] = $name;
+            }
+            else
+            {
+                echo 'The username or password are incorrect!';
+            }
+        }// lookup username in database
         // check password
         return true;
         //return false if not valid
