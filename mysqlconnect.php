@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-$users = new mysqli('127.0.0.1','testuser','12345','testMockingbird');
+$users = new mysqli('127.0.0.1','testuser','12345','mockingbird');
 
 if ($users->errno != 0)
 {
