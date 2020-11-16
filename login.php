@@ -1,12 +1,12 @@
 
 <?php
 	session_start();
-	$con = mysqli_connect('127.0.0.1','testuser','12345','testdb');
+	$con = mysqli_connect('127.0.0.1','testuser','12345','mockingbird');
 	if(!$con)
 	{
 		echo 'Not connected to server.';
 	}
-	if(!mysqli_select_db($con, 'testdb'))
+	if(!mysqli_select_db($con, 'mockingbird'))
 	{
 		echo 'Database not selected.';
 	}
